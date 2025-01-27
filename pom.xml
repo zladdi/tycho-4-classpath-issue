@@ -5,10 +5,10 @@
   <artifactId>parent</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
-	<properties>
-		<tycho-version>4.0.8</tycho-version>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-	</properties>
+        <properties>
+	    <tycho-version>4.0.10</tycho-version>
+            <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        </properties>
   <modules>
     <module>dependee</module>
     <module>dependent</module>
@@ -76,5 +76,4 @@
         </plugin>
     </plugins>
   </build>
-
 </project>
